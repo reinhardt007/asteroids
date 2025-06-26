@@ -8,6 +8,7 @@ import pygame
 import constants
 
 def main():
+    print("Here is change")
     pygame.init()
     screen = pygame.display.set_mode((constants.SCREEN_WIDTH, constants.SCREEN_HEIGHT))
     clock = pygame.time.Clock()
